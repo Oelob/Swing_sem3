@@ -9,13 +9,6 @@ package org.example;
 
 public class Calculator {
 
-//    private static Number a;
-//    private static Number b;
-//
-//    public Calculator(Number a, Number b) {
-//        this.a = a;
-//        this.b = b;
-//    }
 
     public static Number sum(Number a, Number b) {
         if (a instanceof Long | b instanceof Long) {
